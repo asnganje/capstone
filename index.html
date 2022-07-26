@@ -18,22 +18,20 @@
             <li></li>
         </ul>
     </div>
-        <header id="unique-header">
+        <header class="topbar">
             <nav class="navbar">
                 <ul class="nav-items">
-                    <li class="key-navs">
-                        <a href="">Home</a>
-                        <a href="">About</a>
-                        <a href="">Speakers</a>
-                        <a href="">Partners</a>
-                    </li>
+                    <li class="li-deco"><a href="#home">Home</a></li>
+                    <li class="li-deco"><a href="#about.html">About</a></li>
+                    <li class="li-deco"><a href="#speakers">Speakers</a></li>
+                    <li class="li-deco"><a href="#partners">Partners</a></li> 
                 </ul>
-                <div class="hamburger"><a href="#">&#9776;</a></div>
+                <div class="hamburger" id="hamburger-menu"><a href="#">&#9776;</a></div>
             </nav>
         </header>
         <main class="mainPart">
             <section class="mainPSection">
-                <div class="main-h-contaier">
+                <div class="main-h-contaier" id="home">
                     <h1 class="support-info">&quot;Hello! Sharing world&quot;</h1>
                     <h2 class="header-descrptn">Creative commons Collaborative Software Development Summit 2022</h2>
                 </div>
@@ -90,7 +88,7 @@
             <h2 class="join-mobile">Join CC Global Collaborative Software Development 2022</h2>
             <h2 class="join-desktop">See the whole program</h2>
         </div>
-        <section>
+        <section id="speakers">
             <h2 class="speakers">Feature Speaker</h2>
             <hr class="line-speakers">
             <div id="modal"></div>
@@ -100,7 +98,7 @@
                     <p class="more-txt">More</p>
                     <img class="downArrow" src="./images/imageIconType/arrow_down.png" alt="down arrow" >
                 </div>
-                <div class="partners">
+                <div class="partners" id="partners">
                     <h2 class="partnesHeader">Partner</h2>
                     <hr class="line-partners">
                     <div class="partners-image">
@@ -122,5 +120,6 @@
                 </div>
         </footer>
         <script src="modal.js"></script>
+        <script src="myScript.js"></script>
 </body>
 </html>
