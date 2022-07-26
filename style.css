@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style-type: none;
+}
+
+.top-outline {
+    display: none;
+}
+
+#unique-header {
+    top: 0;
+    background-color: grey;
+    height: 8vh;
+}
+
+.mainPart {
+    background-image: url(./images/bgimages/mobilebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* main */
+.main-h-contaier {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.support-info {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 15px;
+}
+
+.header-descrptn {
+    color: #ec5242;
+    font-size: 1.4em;
+    margin-top: 24px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.detail-text {
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+.p-content {
+    width: 95%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #5e5e5e;
+    line-height: 20px;
+    border: 5px solid white;
+    background-color: whitesmoke;
+    padding: 15px 30px;
+}
+
+.conf-date {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #787676;
+    padding: 0 15px 10px 15px;
+}
+
+.location-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    line-height: 20px;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 15px;
+}
+
+.mainProgram {
+    background-image: url(./images/bgimages/mainProgramBg.png);
+    background-color: #303134;
+}
+
+.main-p-heading {
+    color: #d3d3d3;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.line-main-p {
+    width: 30px;
+    margin: auto;
+    border: 1px solid #ec5242;
+    background-color: #ec5242;
+}
+
+.programList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 10px;
+}
+
+.main-p-container {
+    display: grid;
+    grid-template-columns: 15% 30% 55%;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: rgba(85, 87, 91, 0.5);
+    border: 2px solid #272a31;
+    padding: 0 5px;
+}
+
+.sub-header {
+    color: #ec5242;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sub-text {
+    color: whitesmoke;
+    padding: 10px 8px;
+    width: 100%;
+}
+
+.join-program {
+    background-image: url('./images/bgimages/mainProgramBg.png');
+    background-color: #303134;
+    margin: 0;
+    padding: 5%;
+    margin-bottom: 4%;
+}
+
+.join-mobile {
+    background-color: #ec5242;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.join-desktop {
+    display: none;
+  }
+
+.speaker-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.speaker-image {
+    width: auto;
+    padding: 17px;
+  }
+
+.speaker-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+
+.speaker-header {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 2px;
+    color: #575757;
+  }
+
+.speaker-profession {
+    color: #ec5242;
+    font-size: 15px;
+    font-family: 'lato', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding: 3px 1px;
+  }
+
+  .speaker-description {
+    font-size: 13px;
+    padding: 4px;
+    font-weight: 400;
+  }
+
+footer {
+    margin-top: 20px;
+}
+
+.footer-more-part {
+    border: 1px solid rgb(183, 181, 181);
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    gap: 20px;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.more-txt {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.partners {
+    display: none;
+}
+
+.footer-bottom {
+    display: none;
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px){
+    .top-outline {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }   
+
+
+}
