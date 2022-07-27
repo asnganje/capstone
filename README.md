@@ -15,7 +15,8 @@ Vscode, atom or any other editor that supports
 HTML
 CSS
 Javascript
-Live Demo Link
+Follow the following link to access the live demo of the website
+https://asnganje.github.io/capstone/
 
 
 
