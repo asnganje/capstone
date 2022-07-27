@@ -122,7 +122,7 @@ a {
 
 .desktop-logo {
   display: none;
-}  
+}
 
 .footer-more-part {
   display: none;
@@ -148,7 +148,7 @@ footer {
   width: 30px;
   margin: auto;
   background-color: #e78d85;
-  border: 1px solid #d9918b;   
+  border: 1px solid #d9918b;
 }
 
 .partners-image {
@@ -218,7 +218,7 @@ footer {
   gap: 12px;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 10%
+  padding-bottom: 10%;
 }
 
 .summitH {
@@ -228,7 +228,7 @@ footer {
   font-weight: 500;
   color: black;
   padding-top: 40px;
-  padding-bottom: 12px; 
+  padding-bottom: 12px;
 }
 
 .summit-s-text {
@@ -285,7 +285,7 @@ footer {
     justify-content: flex-end;
     background-color: #030303;
     height: 7vh;
-  }   
+  }
 
   a {
     text-decoration: none;
@@ -324,7 +324,7 @@ footer {
     height: 11vh;
   }
 
-  .desktop-logo{
+  .desktop-logo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
