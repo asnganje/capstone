@@ -18,8 +18,6 @@ Javascript
 Follow the following link to access the live demo of the website
 https://asnganje.github.io/capstone/
 
-
-
 Authors
 👤 Abdulrahman Nganje
 

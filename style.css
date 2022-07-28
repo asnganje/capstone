@@ -301,7 +301,7 @@ footer {
   .topbar.visible {
     display: none;
   }
-
+  
   .top-outline {
     display: flex;
     justify-content: flex-end;
@@ -379,6 +379,8 @@ footer {
 
   .li-deco a {
     color: #272a31;
+    font-size: 16px;
+    line-height: 11px;
   }
 
   .mainPart {
@@ -490,6 +492,7 @@ footer {
   .partners {
     display: block;
     background-color: #2f3135;
+    height: 25vh;
   }
 
   .partnesHeader {
@@ -545,6 +548,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    height: 25vh;
   }
 
   .logo {
