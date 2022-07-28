@@ -336,7 +336,7 @@ footer {
     background-image: none;
   }
 
-  .nav-items {
+  .top .nav-items {
     position: relative;
     top: 0;
     display: flex;
