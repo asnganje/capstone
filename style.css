@@ -305,7 +305,7 @@ footer {
   .topbar.visible {
     display: none;
   }
-  
+
   .topbar1 {
     display: block;
   }
@@ -318,7 +318,7 @@ footer {
     background: none;
     width: 99.1%;
     margin-left: 1.5%;
-    height: 11vh;    
+    height: 11vh;
   }
 
   .desktop-logo1 {
@@ -351,13 +351,17 @@ footer {
     padding-left: 10%;
   }
 
+  a {
+    text-decoration: none;
+  }
+  
   .li-deco1 a {
     color: #272a31;
     font-size: 16px;
     line-height: 11px;
   }
 
-  .topbar{
+  .topbar {
     display: none;
   }
 
@@ -366,10 +370,6 @@ footer {
     justify-content: flex-end;
     background-color: #030303;
     padding: 15px;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   .outline-items {
